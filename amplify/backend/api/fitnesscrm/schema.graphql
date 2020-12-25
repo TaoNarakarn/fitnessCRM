@@ -4,3 +4,25 @@ type Todo @model {
   description: String
   image: String
 }
+
+type Customer @model {
+  id: ID!
+  name: String!
+  lastName: String
+  gender: String
+  tel: String!
+  address: String
+  email: String
+  photo: String
+  status: String
+  membership: [ID]
+  createDate: AWSDateTime
+}
+
+type Membership @model {
+  id: ID!
+  description: String
+  Price: String
+  From: AWSDateTime
+  To: AWSDateTime
+}
