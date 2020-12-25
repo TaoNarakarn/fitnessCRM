@@ -17,12 +17,36 @@ type Customer @model {
   status: String
   membership: [ID]
   createDate: AWSDateTime
+  remarks: String
 }
 
 type Membership @model {
   id: ID!
+  name: String!
   description: String
-  Price: String
-  From: AWSDateTime
-  To: AWSDateTime
+  price: String
+  from: AWSDateTime
+  to: AWSDateTime
+}
+
+type accessLog @model {
+  id: ID!
+  customerId: ID
+  from: AWSDateTime
+  to: AWSDateTime
+  lockerNo: ID
+  remarks: String
+}
+
+type Locker @model {
+  id: ID!
+  No: String
+  gender: String
+  status: String
+}
+
+enum customerStatus {
+  Active
+  InActive
+  Freeze
 }
