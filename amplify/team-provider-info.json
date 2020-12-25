@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-fitnesscrm-dev-11719-authRole",
+      "UnauthRoleArn": "arn:aws:iam::278903981940:role/amplify-fitnesscrm-dev-11719-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::278903981940:role/amplify-fitnesscrm-dev-11719-authRole",
+      "Region": "ap-southeast-1",
+      "DeploymentBucketName": "amplify-fitnesscrm-dev-11719-deployment",
+      "UnauthRoleName": "amplify-fitnesscrm-dev-11719-unauthRole",
+      "StackName": "amplify-fitnesscrm-dev-11719",
+      "StackId": "arn:aws:cloudformation:ap-southeast-1:278903981940:stack/amplify-fitnesscrm-dev-11719/4314d0e0-4614-11eb-a1f5-06c012599cae",
+      "AmplifyAppId": "d1m0ruta7zpyxk"
+    },
+    "categories": {
+      "auth": {
+        "fitnesscrmaec12158": {}
+      }
+    }
+  }
+}
