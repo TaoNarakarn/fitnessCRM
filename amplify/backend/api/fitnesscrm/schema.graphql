@@ -20,6 +20,21 @@ type Customer @model {
   remarks: String
 }
 
+type Trainer @model {
+  id: ID!
+  name: String!
+  lastName: String
+  gender: String
+  tel: String!
+  address: String
+  email: String
+  photo: String
+  status: String
+  customerId: [ID]
+  createDate: AWSDateTime
+  remarks: String
+}
+
 type Membership @model {
   id: ID!
   name: String!
